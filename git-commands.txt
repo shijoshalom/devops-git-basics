@@ -1,0 +1,19 @@
+mkdir devops-git-basics
+cd devops-git-basics
+git init
+git add README.md version.txt
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/shijoshalom/devops-git-basics.git
+git push -u origin main
+nano version.txt #to edit the file
+git add version.txt
+git commit -m "Update version to v1.0.1"
+git push
+nano README.md #Edit the file 
+git add README.md
+git commit -m "Adding skill set in Readme"
+git push
+#To view log in one line 
+git log --oneline
+
