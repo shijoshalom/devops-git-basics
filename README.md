@@ -6,3 +6,7 @@ I'm here to learn git and github
 -Git
 -GitHub
 -Linux
+
+#Project
+
+This repo contains my 2nd week git Assignment.
